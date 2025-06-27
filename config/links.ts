@@ -27,16 +27,6 @@ export const links : readonly [LinkType, LinkType, LinkType] = [
         name: "YouTube"
     },
     {
-        url: 'https://野怪.com',
-        icon: Github, // 使用 emoji 作为机场图标
-        color: 'from-bg-[#4285F4] to-bg-[#1976D2]',
-        fill: "fill-[#4285F4]",
-        border: "border-[#4285F4]",
-        shadow: "shadow-blue-300",
-        text:"text-[#4285F4]",
-        name: "机场"
-    },
-    {
         url: 'https://t.me/o2dd3',
         icon: Telegram,
         color: 'from-bg-[#26A5E4] to-bg-[#229ED9]',
