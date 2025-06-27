@@ -89,7 +89,7 @@ const PostPage: NextPage<{ page: Post; blocks: any[]; pagination: any; posts: an
                 })}
                 <div className={`flex flex-col mt-8 justify-between ${page.originalCover ? "md:flex-row-reverse md:items-center" : ""} gap-4 w-full`}>
                     {page.originalCover ?
-                        <a href="mailto:541297173@qq.com">
+                        <a href="mailto:titimi789@gmail.com">
                             <div className="inline-block px-2 py-1 space-x-2 text-sm rounded-full whitespace-nowrap bg-true-gray-100 text-true-gray-800" dark="bg-true-gray-800 text-true-gray-100">
                                 <FontAwesomeIcon icon={faPalette} />
                                 <span>原创封面图，请勿盗用</span>
