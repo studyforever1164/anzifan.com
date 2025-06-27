@@ -8,7 +8,7 @@ export const me = {
     social: [
         ...links,
         {
-            url: 'mailto:541297173@qq.com',
+            url: 'mailto:titimi789@gmail.com',
             icon: Gmail,
             name: 'Email',
             fill: "fill-gray-400",
