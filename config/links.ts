@@ -28,7 +28,7 @@ export const links : readonly [LinkType, LinkType, LinkType] = [
     },
     {
         url: 'https://野怪.com',
-        icon: "🛫", // 使用 emoji 作为机场图标
+        icon: "Github", // 使用 emoji 作为机场图标
         color: 'from-bg-[#4285F4] to-bg-[#1976D2]',
         fill: "fill-[#4285F4]",
         border: "border-[#4285F4]",
