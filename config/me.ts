@@ -3,7 +3,7 @@ import { Gmail, Java, Python , Javascript, Typescript, Swift, Mysql, Realm, Mong
 
 export const me = {
     site: "https://www.anzifan.com",
-    name: '异次元de机智君💯',
+    name: '狗哥💯',
     bio: '💻 🎨 🎮 ⚡️',
     social: [
         ...links,

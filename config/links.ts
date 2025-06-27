@@ -1,7 +1,5 @@
-import { Github, Dribbble, Props, Linkedin } from '@icons-pack/react-simple-icons'
+import { Youtube, Props, Telegram } from '@icons-pack/react-simple-icons'
 import { FC } from 'react'
-import Sspai from '../assets/sspai.svg'
-import Zhihu from '../assets/zhihu.svg'
 
 export type LinkType = {
     url: string,
@@ -16,58 +14,37 @@ export type LinkType = {
 }
 
 
-export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType] = [
+export const links : readonly [LinkType, LinkType, LinkType] = [
     {
-        url: 'https://github.com/MannyCooper',
-        icon: Github,
-        color: 'from-bg-[#24292f] to-bg-[#040d21]',
-        fill: "fill-[#181717]",
-        border: "border-[#181717]",
-        text:"text-[#181717]",
-        shadow: "shadow-true-gray-400",
-        id: "MannyCooper",
-        name: "GitHub"
-    },
-    {
-        url: 'https://sspai.com/u/mannycooper/updates',
-        icon: Sspai,
-        color: 'from-bg-[#d7161c] to-bg-[#fc281a]',
-        fill: "fill-[#da282a]",
-        border: "border-[#da282a]",
+        url: 'https://www.youtube.com/@gougewaiwang',
+        icon: Youtube,
+        color: 'from-bg-[#FF0000] to-bg-[#CC0000]',
+        fill: "fill-[#FF0000]",
+        border: "border-[#FF0000]",
+        text:"text-[#FF0000]",
         shadow: "shadow-red-300",
-        text:"text-[#da282a]",
-        name: "少数派"
+        id: "gougewaiwang",
+        name: "YouTube"
     },
     {
-        // # banned
-        url: 'https://www.zhihu.com/people/an-zi-fan-62',
-        icon: Zhihu,
-        color: 'from-true-gray-400 to-true-gray-300 dark:(from-true-gray-600 to-true-gray-500)',
-        fill: "fill-[#0084FF]",
-        border: "border-[#0084FF]",
+        url: 'https://野怪.com',
+        icon: "🛫", // 使用 emoji 作为机场图标
+        color: 'from-bg-[#4285F4] to-bg-[#1976D2]',
+        fill: "fill-[#4285F4]",
+        border: "border-[#4285F4]",
         shadow: "shadow-blue-300",
-        text:"text-[#0084FF]",
-        id: "optional",
-        name: "知乎"
+        text:"text-[#4285F4]",
+        name: "机场"
     },
     {
-        url: 'https://dribbble.com/anzifan',
-        icon: Dribbble,
-        fill: "fill-[#EA4C89]",
-        border: "border-[#EA4C89]",
-        shadow: "shadow-pink-300",
-        text:"text-[#EA4C89]",
-        color: 'from-bg-[#ea4c89] to-bg-[#ff589f]',
-        name: 'Dribbble'
-    },
-    {
-        url: 'http://linkedin.com/in/zifan-an/',
-        icon: Linkedin,
-        fill: "fill-[#0A66C2]",
-        border: "border-[#0A66C2]",
+        url: 'https://t.me/o2dd3',
+        icon: Telegram,
+        color: 'from-bg-[#26A5E4] to-bg-[#229ED9]',
+        fill: "fill-[#26A5E4]",
+        border: "border-[#26A5E4]",
         shadow: "shadow-blue-300",
-        text:"text-[#0A66C2]",
-        color: 'from-bg-[#0b66c2] to-bg-[#008bff]',
-        name: 'LinkedIn'
+        text:"text-[#26A5E4]",
+        id: "o2dd3",
+        name: "Telegram"
     }
 ]
