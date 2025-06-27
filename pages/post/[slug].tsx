@@ -18,7 +18,6 @@ import { Share } from "../../components/Share";
 import Licensing from "../../components/Licensing";
 import TagsIcon from '../../assets/tags.svg'
 import Pagination from "../../components/Pagination";
-import Comment from "../../components/Comment";
 import { Media, MediaContextProvider } from "../../components/utility/Breakpoints";
 import { WidgetMeMedium, WidgetMeSmall } from "../../components/widget/WidgetMe";
 import { WidgetOverViewMedium, WidgetOverViewSmall } from "../../components/widget/WidgetOverview";
@@ -134,9 +133,6 @@ const PostPage: NextPage<{ page: Post; blocks: any[]; pagination: any; posts: an
                         <WidgetOverViewSmall posts={posts} />
                     </Media>
                 </MediaContextProvider> */}
-            </ContentLayout>
-            <ContentLayout>
-                <Comment />
             </ContentLayout>
         </>
     )
